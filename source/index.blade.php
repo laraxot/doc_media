@@ -13,8 +13,8 @@
             <div class="flex my-10">
 
                 @php($first=$docs->first())
-                @if($first!=null)
-                    <a href="{{ url($first->getPath()) }}" title="{{$first->title }} getting started" class="bg-blue-500 hover:bg-blue-600 font-normal text-white hover:text-white rounded mr-4 py-2 px-6">
+                @if ($first!=null)
+                    <a href="{{ url($first->getPath()) }}" title="{{ $first->title }} getting started" class="bg-blue-500 hover:bg-blue-600 font-normal text-white hover:text-white rounded mr-4 py-2 px-6">
                         {{ $first->title }}
                     </a>
                 @endif
