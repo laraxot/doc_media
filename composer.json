@@ -1,4 +1,18 @@
 {
+    "name": "laraxot/doc_amedia",
+    "description": "media docs",
+    "homepage": "https://geekpiu.com/",
+    "support": {
+        "issues": "https://github.com/laraxot/module_media/issues",
+        "source": "https://github.com/laraxot/module_media/"
+    },
+    "authors": [
+        {
+            "name": "Marco Sottana",
+            "email": "marco.sottana@gmail.com"
+        }
+    ],
+    "license": "MIT",
     "require": {
         "tightenco/jigsaw": "^1.7",
         "samdark/sitemap": "^2.2.1",

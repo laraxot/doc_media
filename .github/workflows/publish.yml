@@ -16,6 +16,9 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@master
+    
+	- name: Update dependencies
+      run: composer update
 
     - name: Validate composer.json and composer.lock
       run: composer validate
@@ -30,7 +33,7 @@ jobs:
       run: npm run prod
 
     - name: CNAME
-      run: echo "privacyfed.github.io/doc_extrafield" > ./build_production/CNAME
+      run: echo "laraxot.github.io/doc_media" > ./build_production/CNAME
 
     - name: gh-pages
       uses: JamesIves/github-pages-deploy-action@v4.4.2
