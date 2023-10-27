@@ -1,19 +1,17 @@
 {
-    
-        "name": "laraxot/doc_media",
-        "description": "media docs",
-        "homepage": "https://geekpiu.com/",
-        "support": {
-            "issues": "https://github.com/laraxot/module_media/issues",
-            "source": "https://github.com/laraxot/module_media/"
-        },
-        "authors": [
-            {
-                "name": "Marco Sottana",
-                "email": "marco.sottana@gmail.com"
-            }
-        ],
-        "license": "MIT",
+    "name": "laraxot/doc_media",
+    "description": "media docs",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/laraxot/module_media/issues",
+        "source": "https://github.com/laraxot/module_media/"
+    },
+    "authors": [
+        {
+            "name": "Marco Sottana",
+            "email": "marco.sottana@gmail.com"
+        }
+    ],
     "require": {
         "tightenco/jigsaw": "^1.7",
         "tightenco/jigsaw-docs-template": "^1.1",
